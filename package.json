@@ -1,0 +1,37 @@
+{
+  "name": "e-hinga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iteka006/e-hinga.git"
+  },
+  "author": "Chanice&Diane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iteka006/e-hinga/issues"
+  },
+  "homepage": "https://github.com/Iteka006/e-hinga#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "@googlemaps/google-maps-services-js": "^3.1.13",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "node-geocoder": "^3.27.0",
+    "react-geocode": "^0.2.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
