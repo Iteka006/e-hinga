@@ -5,12 +5,7 @@ import morgan from 'morgan'
 import connectDB from './config/db.js';
 import colors from 'colors'
 
-import { notFound, errorHandler } from './middleware/errorMiddlware.js'
-import productRoutes from './routes/productRoutes.js'
-import userRoutes from './routes/userRoutes.js'
-import orderRoutes from './routes/orderRoutes.js'
-import uploadRoutes from './routes/uploadRoutes.js'
-import supplierRoutes from './routes/supplierRoutes.js'
+
 
 dotenv.config('./../.env');
 
