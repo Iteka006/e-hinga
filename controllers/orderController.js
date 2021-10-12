@@ -1,7 +1,7 @@
 import express from 'express'
 import asyncHandler from 'express-async-handler'
 
-import orderSeed from './../models/orderSeedModel.js';
+import orderSeed from '../models/orderSeedModel.js';
 
 // @desc    create new order
 // @rout    POST /api/orders
